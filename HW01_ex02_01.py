@@ -9,18 +9,19 @@
 
 print("Hello World!") # example
 
-
-
-
-
-
-
+print 5
+x = 5
+print x + 1
 
 ######## enter statements above this line ########
 # What is the output?
 # [copy and past output here]
-# 
+# Hello World!
+#
 # (3) Modify the script by transforming each expression into a print statement 
 # and then run it again.
 # What is the output?
 # [copy and past output here]
+# Hello World!
+# 5
+# 6

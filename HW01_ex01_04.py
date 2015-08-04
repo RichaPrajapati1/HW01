@@ -1,6 +1,6 @@
 # HW01_ex01_04
 # Start the Python interpreter and use it as a calculator. 
-# Python’s syntax for math operations is almost the same as 
+# Pythons syntax for math operations is almost the same as 
 # standard mathematical notation. For example, the symbols 
 # +, - and / denote addition, subtraction and division, as you would expect. 
 # The symbol for multiplication is *.
@@ -9,3 +9,10 @@
 # average time per mile? What is your average speed in miles per hour? 
 # (Hint: there are 1.61 kilometers in a mile).
 # Average Speed in MPH:
+
+dist = 10/1.61
+time = ((43*60)+30)/3600.0
+avgspeed = dist/time
+print 'Average Speed in MPH: ' + str(avgspeed)
+avgtime = float(1/avgspeed)
+print 'Average Time taken: ' + str(avgtime)
